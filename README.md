@@ -59,37 +59,6 @@
 
 ---
 
-## 3. 目录结构
-
-```
-.
-├─ README.md                     本文件（简体中文主文档）
-├─ README.en.md                  英文
-├─ README.zh-CN.md               简体中文
-├─ README.zh-TW.md               繁體中文
-├─ README_构建说明.md            完整的构建记录、踩坑与验证过程
-├─ 刷机与救砖.md                 刷机、诊断、恢复步骤
-├─ kernel-source.tar.gz          完整内核源码（解压到不含空格的路径）
-├─ scripts/build.sh              构建脚本（内核源码根目录也有 build.sh）
-├─ tools/mpgen/                  Qualcomm MPGen 2.1.1（Python 2）
-├─ device_tree/                  设备树资料（未测试，可能不能用）
-│  ├─ README.md                  设备树说明与免责声明
-│  ├─ dtb/                       26 个原厂设备 DTB + 原厂 RTIC DTB
-│  ├─ dts/                       反编译 DTS
-│  ├─ rebuilt/                   源码重编译 DTB（19021/19375/19571）
-│  ├─ rtic_mp.generated.dts      新内核生成的 RTIC MP_DATA
-│  └─ manifest.md                DTB ↔ 工程/硬件阶段/源码 对照表
-├─ scripts/
-│  ├─ build.sh                   构建脚本（工作区版本）
-│  ├─ sign_boot.sh               一键 AVB 签名
-│  ├─ pack_boot.py               boot 镜像重打包
-│  ├─ flash_signed.sh            刷入 signed/ 镜像
-│  └─ flash_stock.sh             恢复原厂
-├─ signed/                       签名后的 boot / vbmeta
-└─ artifacts/                    内核、ksud、APK、配置、校验值
-```
----
-
 ## 4. 依赖的工具
 
 | 工具 | 版本/说明 | 用途 |
