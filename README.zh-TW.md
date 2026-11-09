@@ -286,6 +286,7 @@ sha256sum signed/boot-ksu-XBaiYe.img
 - OPPO / Qualcomm 開源原始碼
 - KernelSU（tiann/KernelSU）
 - Qualcomm MPGen 2.1.1
+- DeepSeek Harness
 - 以及所有提供協助的大佬
 
 本專案由 **小白叶114514** 整理與維護。

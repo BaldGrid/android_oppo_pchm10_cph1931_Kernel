@@ -7,7 +7,7 @@
 
 - **作者：小白叶114514**
 - 内核版本：`4.14.180-XBaiYe`
-- 基线：OPPO 官方 SM6125 / trinket F.14 内核源码
+- 基线：OPPO 官方 SM6125 / F.14 内核源码
 - KernelSU：v0.9.5，版本码 `11872`
 - 目标设备：OPPO A11 / A11n / A11x、OPPO A5 2020、OPPO A9 2020（**仅 UFS 存储版本**；A-only，非 A/B）
 
@@ -88,17 +88,6 @@
 ├─ signed/                       签名后的 boot / vbmeta
 └─ artifacts/                    内核、ksud、APK、配置、校验值
 ```
-
-源码解压后的布局：
-
-```
-oppo_a11/
-├─ android/
-│  ├─ kernel/msm-4.14/          内核源码（build.sh 在这里）
-│  └─ vendor/                   OPPO/QCOM 配套源码
-└─ msm_amss/                    OPPO sensor 等 msm_amss 源码
-```
-
 ---
 
 ## 4. 依赖的工具
@@ -308,6 +297,7 @@ sha256sum signed/boot-ksu-XBaiYe.img
 - OPPO / Qualcomm 开源源码
 - KernelSU（tiann/KernelSU）
 - Qualcomm MPGen 2.1.1
+- DeepSeek Harness
 - 以及所有提供帮助的大佬
 
 本项目由 **小白叶114514** 整理与维护。

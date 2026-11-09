@@ -294,6 +294,7 @@ Limitations:
 - OPPO / Qualcomm open-source kernel sources
 - KernelSU (tiann/KernelSU)
 - Qualcomm MPGen 2.1.1
+- DeepSeek Harness
 - Everyone who helped with debugging
 
 Maintained by **小白叶114514**.
